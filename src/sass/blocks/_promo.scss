@@ -1,0 +1,79 @@
+.promo {
+    position: relative;
+    background-image: url(../img/bg_1.jpg);
+    background-position:  right;
+    background-repeat: no-repeat;
+    &__app {
+        position: absolute;
+        left: 52.05%;
+        right: 18.82%;
+        top: 39.06px;
+
+
+    }
+    &__title {
+        @include title;
+        padding-top: 162px;
+    }
+    &__subtitle {
+        @include subtitle;
+        margin-top: 28px;
+        width: 515px;
+        text-align: left;
+        font-size: 62px;
+        line-height: 72px;
+
+    }
+    &__descr {
+        margin-top: 16px;
+        width: 515px;
+        @include fz12;
+    }
+
+    &__btns {
+        display: flex;
+
+    }
+    
+    &__btn{
+        display: block;
+        width: 247px;
+        height: 73px;
+        margin-top: 40px;
+        margin-right: 27px;
+        font-size: 18px;
+        line-height: 73px;
+    }
+    .divider {
+        width: 586px;
+        height: 1px;
+        background: #CACACA;
+        margin-top: 60px;
+    }
+    &__indicators {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin-bottom: 163px;
+        width: 586px;
+        &__item_head {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 66px;
+            color: #121212;
+            span {
+                font-weight: 400;
+                color: $main-color;
+               
+
+            }
+        }
+        &__item_descr {
+            @include fz18;
+            text-align: center;
+        }
+    }
+
+
+}
