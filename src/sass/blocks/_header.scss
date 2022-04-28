@@ -1,5 +1,6 @@
 .header {
     min-height: 120px;
+    box-shadow: 0px 3px 12px rgba(18, 18, 18, 0.06);
     &__wrapper {
         display: grid;
         grid-template-columns: 524px 385px 310px;
