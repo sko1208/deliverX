@@ -1,0 +1,53 @@
+.header {
+    min-height: 120px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 524px 385px 310px;
+        grid-template-rows: 100%;
+        grid-auto-rows: minmax(120px, 1fr);
+        align-items: center;
+        min-height: 120px;
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &__btn {
+       padding: 19px 25px 19px 25px;
+       &:nth-child(2) {
+           margin-left: 18px;
+       }
+    }
+    .menu {
+        &__list {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 0;
+        }
+        &__link {
+           a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #121212;
+                text-decoration: none;  
+            }
+        }
+
+        &__close {
+            display: none;
+        }
+    }  
+    
+}
+.hamburger {
+    display: none;
+}
+
+    
