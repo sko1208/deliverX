@@ -19,8 +19,13 @@
 @import 'blocks/btns';
 @import 'blocks/header';
 @import 'blocks/promo';
+@import 'blocks/restarant';
 
-
+.divider {
+    width: 100%;
+    height: 1px;
+    background: #CACACA;
+}
 
 @import 'blocks/media';
 

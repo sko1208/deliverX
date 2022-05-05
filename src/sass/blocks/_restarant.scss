@@ -1,0 +1,20 @@
+.restarant {
+    padding-top: 140px;
+    &__descr {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #656565;
+    }
+    &__icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+    .divider {
+        margin-top: 140px;
+    }
+}
