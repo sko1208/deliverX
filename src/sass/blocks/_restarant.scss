@@ -14,6 +14,14 @@
         justify-content: space-between;
         margin-top: 45px;
     }
+    &__icon {
+        width:240px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .divider {
         margin-top: 140px;
     }
