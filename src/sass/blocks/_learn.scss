@@ -1,5 +1,8 @@
 .learn {
+    position: relative;
     padding-top: 200px;
+    z-index: 200;
+    
     &__title {
         @include subtitle;
         margin: 35px 0 0 0;

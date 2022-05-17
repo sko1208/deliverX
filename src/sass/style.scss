@@ -1,6 +1,7 @@
-@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-reboot.min.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css");
 
 
 @import 'base/variables';
@@ -22,6 +23,7 @@
 @import 'blocks/restarant';
 @import 'blocks/work';
 @import 'blocks/learn';
+@import 'blocks/delicious';
 
 
 .divider {
