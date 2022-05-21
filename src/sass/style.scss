@@ -12,7 +12,10 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+}
 .container {
     width: 1223px;
     margin: 0 auto;
@@ -24,7 +27,6 @@
 @import 'blocks/work';
 @import 'blocks/learn';
 @import 'blocks/delicious';
-
 
 .divider {
     width: 100%;

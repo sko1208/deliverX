@@ -13,7 +13,7 @@ closeElem.addEventListener('click', () => {
 
 
 
-
+// slider
 var slider = tns ({
     
     
@@ -29,12 +29,9 @@ var slider = tns ({
         "autoplayButtonOutput": false,
         "mouseDrag": true,
         "autoplayTimeout": 5000,
-        "speed": 2000
+        "speed": 2000,
 
-
-        
-      
-  });
+});
 
   var slider = tns ({
     
@@ -58,4 +55,36 @@ var slider = tns ({
     
   
 });
+
+var slider = tns ({
+    
+    
+    "container": "#mobile-slider",
+    "items": 3,
+    "axis": "horizontal",
+    "swipeAngle": false,
+    "speed": 400,
+    "gutter": 30,
+    "controls": false,
+    "nav": false,
+    "autoplay": true,
+    "autoplayButtonOutput": false,
+    "mouseDrag": true,
+    "autoplayTimeout": 3000,
+    "speed": 2000,
+    "autoHeight": true,
+    "autoplayDirection": 'backward',
+    "responsive": {
+        320: {
+          "items": 1
+        },
+        577: {
+            "items": 3
+          }
+    }
+});
+
+
+
+
   
