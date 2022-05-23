@@ -86,5 +86,3 @@ var slider = tns ({
 
 
 
-
-  
