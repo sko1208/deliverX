@@ -1,0 +1,46 @@
+.start {
+    position: relative;
+    background: #121212;
+    &__app {
+        position: absolute;
+        width: 319px;
+        height: 632px;
+        top: -80px;
+        right: 475px;
+        z-index: 2;
+    }
+    &__app:nth-child(2) {
+        right: 190px;
+        z-index: 1;
+    }
+
+    &__title {
+        margin: 0;
+        padding-top: 247px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 66px;
+        text-align: left;
+        color: #ffffff;
+        width: 582px;
+       
+    }
+    &__descr {
+        @include fz12;
+        margin: 26px 0 0 0;
+        width: 582px;
+
+    }
+    &__btns {
+        padding: 40px 0 147px 0;
+    }
+    &__btn {
+        display: flex;
+        width: 247px;
+        height: 73px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
