@@ -1,0 +1,48 @@
+.download {
+    padding-top: 70px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__wrapper-descr {
+        max-width: 450px;
+       
+    }
+    &__logo {
+        width: 200px;
+        height: 60px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__descr {
+        @include fz12;
+        margin: 0;
+        margin-top: 30px;
+    }
+    &__btns {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    &__btn {
+        display: flex;
+        width: 208px;
+        height: 73px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+    }
+    &__btn:nth-child(2) {
+        width: 251px;
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    .divider {
+        margin-top: 83px;
+        
+    }
+}
